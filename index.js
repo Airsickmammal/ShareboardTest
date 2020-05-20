@@ -23,12 +23,12 @@ let page = `<!doctype html>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.css">
-        <title>Social Shareboard for MS Build 2020 Student Zone!</title>
+        <title>Test Board AM</title>
     </head>
     <body>
         <div class="jumbotron">
-            <h1>#MSBuild 2020 Student Zone</h1>
-            <p>This is a Social Shareboard with messages submitted by participants during the Microsoft Build 2020 Student Zone event between May 19-20, 2020</p>
+            <h1>#Personal Site Example</h1>
+            <p>This is a test site for publishing on GIT</p>
         </div>
         <br/>
         <div class="container">
@@ -39,4 +39,4 @@ let page = `<!doctype html>
 </html>`;
 fs.writeFileSync( "index.html", page );
 
-const Web = require( "webwebweb" ).Run( 8000 );
+const Web = require( "webwebwebs" ).Run( 8000 );
